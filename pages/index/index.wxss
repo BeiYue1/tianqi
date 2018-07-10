@@ -1,0 +1,49 @@
+/**index.wxss**/
+.today{
+  box-shadow: 0 20rpx 50rpx #ccc;
+  margin-top: 40rpx;
+  padding-bottom: 60rpx;
+  position: relative ; 
+  background-color: rgb(46 ,139 ,87) ; 
+}
+.temp{
+  text-align: center;
+  font-size: 48rpx;
+  padding-top: 20rpx;
+}
+.todayTemp{
+  text-align: center;
+  line-height: 48rpx;
+}
+.tishi{
+  text-align: left;
+  margin-left: 40rpx;
+  padding-right: 40rpx;
+}
+.city{
+  position: absolute;
+  bottom: 20rpx;
+  right: 50rpx;
+  text-align: right;
+}
+.ul{
+  margin-top: 40rpx;
+  display: flex;
+ 
+}
+.ul_item{
+  flex: 1 ; 
+  padding-left: 20rpx;
+  border: 1px solid #ccc;
+  box-sizing: border-box ; 
+  display: inline-block ; 
+  padding-bottom:40rpx;
+  padding-top: 20rpx;
+}
+.ul_item view{
+  height: 80rpx;
+  line-height: 80rpx;
+}
+._date{
+  text-align: center
+}

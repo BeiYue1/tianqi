@@ -1,0 +1,27 @@
+<!--index.wxml-->
+<view class="container">
+  <view class='today'>
+    <view class='info'>
+      <view class='temp'>
+        {{nowWeather}}
+      </view>
+      <view class='todayTemp'>
+        温度 : {{nowDu}}
+      </view>
+      <view class='tishi'>提示 : {{deg}}</view>
+      <view class='tishi'>天气 : {{wenther}}</view>
+      <view class='tishi'>风向 : {{fengxiang}}</view>
+      <view class='city'>{{city}}</view>
+    </view>
+  </view>
+    
+  <view class='ul'>
+    <view class='ul_item' wx:for='{{weather_data}}' wx:key=''>
+      <view class='_date'>{{item.date}}</view>
+      <view>温度 : {{item.temperature}}</view>
+      <view>天气 : {{item.weather}}</view>
+      <view>风向 : {{item.wind}}</view>
+    </view>
+  </view>
+  
+</view>
